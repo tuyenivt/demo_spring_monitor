@@ -24,5 +24,5 @@
 
 <p>In `Grafana`, go to `Dashboards`, click on button `New` and select `Import`, under `Import via grafana.com`</p>
 <p>Load `https://grafana.com/grafana/dashboards/4701-jvm-micrometer`</p>
-<p>Load `https://grafana.com/grafana/dashboards/6756-spring-boot-statistics`</p>
 <p>Load `https://grafana.com/grafana/dashboards/6083-spring-boot-hikaricp-jdbc`</p>
+<p>Load `https://grafana.com/grafana/dashboards/6756-spring-boot-statistics`</p>
