@@ -1,3 +1,5 @@
+version: "3"
+
 services:
   prometheus:
     image: prom/prometheus:v2.41.0
@@ -8,6 +10,7 @@ services:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
     ports:
       - "9090:9090"
+
   grafana:
     image: grafana/grafana:9.3.2
     ports:
@@ -17,5 +20,7 @@ services:
     user: '104'
     links:
       - prometheus
+
 volumes:
   grafana-storage:
+    driver: local

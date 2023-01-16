@@ -1,7 +1,7 @@
 package com.example.monitor;
 
-import io.gatling.core.scenario.Simulation;
 import io.gatling.javaapi.core.ScenarioBuilder;
+import io.gatling.javaapi.core.Simulation;
 import io.gatling.javaapi.http.HttpProtocolBuilder;
 
 import static io.gatling.javaapi.core.CoreDsl.rampConcurrentUsers;
