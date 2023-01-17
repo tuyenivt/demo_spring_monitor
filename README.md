@@ -12,17 +12,17 @@
 
 `http://localhost:3000`
 
-<p>Default login: admin/admin</p>
+<p>Default login: <code>admin/admin</code></p>
 
 ## Add Prometheus data source to Grafana
 
-<p>In Grafana, go to `Configuration > Data sources`, click on `Add data source`</p>
-<p>Select `Prometheus`, set `URL` to `http://prometheus:9090`</p>
-<p>Finish with `Save & test` button</p>
+<p>In Grafana, go to <code>Configuration > Data sources</code>, click on <code>Add data source</code></p>
+<p>Select <code>Prometheus</code>, set <code>URL</code> to <code>http://prometheus:9090</code></p>
+<p>Finish with <code>Save & test</code> button</p>
 
 ## Create Grafana Dashboards
 
-<p>In `Grafana`, go to `Dashboards`, click on button `New` and select `Import`, under `Import via grafana.com`</p>
-<p>Load `https://grafana.com/grafana/dashboards/4701-jvm-micrometer`</p>
-<p>Load `https://grafana.com/grafana/dashboards/6083-spring-boot-hikaricp-jdbc`</p>
-<p>Load `https://grafana.com/grafana/dashboards/6756-spring-boot-statistics`</p>
+<p>In Grafana, go to <code>Dashboards</code>, click on button <code>New</code> and select <code>Import</code>, under <code>Import via grafana.com</code></p>
+<p>Load <code>https://grafana.com/grafana/dashboards/4701-jvm-micrometer</code></p>
+<p>Load <code>https://grafana.com/grafana/dashboards/6083-spring-boot-hikaricp-jdbc</code></p>
+<p>Load <code>https://grafana.com/grafana/dashboards/6756-spring-boot-statistics</code></p>
