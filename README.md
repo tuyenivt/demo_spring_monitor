@@ -2,15 +2,15 @@
 
 ## Start prometheus and grafana
 
-`docker compose -f docker/docker-compose.yml up -d`
+<code>docker compose -f docker/docker-compose.yml up -d</code>
 
 ## Access to Prometheus
 
-`http://localhost:9090/graph`
+<code>http://localhost:9090/graph</code>
 
 ## Access to Grafana
 
-`http://localhost:3000`
+<code>http://localhost:3000</code>
 
 <p>Default login: <code>admin/admin</code></p>
 
@@ -23,6 +23,4 @@
 ## Create Grafana Dashboards
 
 <p>In Grafana, go to <code>Dashboards</code>, click on button <code>New</code> and select <code>Import</code>, under <code>Import via grafana.com</code></p>
-<p>Load <code>https://grafana.com/grafana/dashboards/4701-jvm-micrometer</code></p>
-<p>Load <code>https://grafana.com/grafana/dashboards/6083-spring-boot-hikaricp-jdbc</code></p>
-<p>Load <code>https://grafana.com/grafana/dashboards/6756-spring-boot-statistics</code></p>
+<p>Load <code>https://grafana.com/grafana/dashboards/11378-justai-system-monitor</code></p>
